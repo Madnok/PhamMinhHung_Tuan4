@@ -21,7 +21,7 @@ export default function App() {
                   <TouchableOpacity title='-' style={styles.buttonAddRemove} onPress={(onPressRemove)}>
                     <Text style={{fontSize:15}}>-</Text> 
                     </TouchableOpacity>
-                    <Text style={{marginRight: 10, marginTop:0, fontSize:15}}>1</Text>
+                    <Text style={{marginRight: 10, marginTop:0, fontSize:15}}>{count}</Text>
                     <TouchableOpacity title='+' style={styles.buttonAddRemove} onPress={(onPressAdd)}>
                     <Text style={{fontSize:15}}>+</Text>
                     </TouchableOpacity>
